@@ -8,7 +8,7 @@ var express = require('express')
     , passport=require('passport')
 //create/connect to database
 var dbname = 'test';
-var uri = 'mongodb://localhost:27017/' + dbname;
+var uri = 'mongodb://localhost/' + dbname;
 mongoose.connect(uri);
 console.log('server.js : connecting to %s', uri);
 //express settings

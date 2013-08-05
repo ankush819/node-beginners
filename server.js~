@@ -23,7 +23,7 @@ app.use(express.bodyParser());
  app.use(express.session({
       secret: 'spoc',
       store: new mongoStore({
-        url: 'mongodb://localhost:27017/' + dbname,
+        url: 'mongodb://localhost/' + dbname,
         collection : 'sessions'
       })
     }))
