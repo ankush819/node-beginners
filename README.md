@@ -5,6 +5,8 @@ A simple nodejs-express-mongoose-jade web application which also implements CRUD
 
 To execute:
 
+$cd node-beginners
+
 $npm install
 
-$nodemon server.js
+$node server.js
