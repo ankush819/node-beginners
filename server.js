@@ -21,9 +21,9 @@ app.use(express.bodyParser());
  app.use(express.methodOverride())
 
  app.use(express.session({
-      secret: 'noobjs',
+      secret: 'spoc',
       store: new mongoStore({
-        url: 'mongodb://localhost:27017/' + dbname,
+        url: 'mongodb://localhost/' + dbname,
         collection : 'sessions'
       })
     }))
@@ -31,7 +31,7 @@ app.use(express.bodyParser());
   app.use(passport.session());
 
 app.use(flash())
- app.use(helpers('myapp')) 
+ app.use(helpers('node-beginners')) 
 app.use(app.router);
 
 });
