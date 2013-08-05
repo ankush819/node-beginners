@@ -1,6 +1,6 @@
 {
   "name": "node",
-  "description": "node test app",
+  "description": "node for beginners app",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -14,7 +14,11 @@
     "passport-local": "latest",
     "underscore": "latest",
     "async": "latest",
-    "view-helpers": "latest"
+    "view-helpers": "latest",
+    "engines": {
+    "node": "0.10.x",
+    "npm":  "1.2.x"
+  }
     
   },
   "devDependencies": {
