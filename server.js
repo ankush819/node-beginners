@@ -52,11 +52,6 @@ var PORT = process.env.PORT || 3000
 app.listen(PORT)
 console.log('Express app started on port '+PORT)
 
-
 //expose app
 exports = module.exports = app
-
-
-
-
 
